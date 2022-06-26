@@ -15,6 +15,11 @@ body {
     margin: 0;
 }
 
+.container {
+    perspective: 1000px;
+    margin-bottom: 30px;
+}
+
 .movie-container {
     margin: 20px 0;
 }
@@ -85,7 +90,8 @@ body {
     height: 70px;
     width: 100%;
     margin: 15px 0;
-    box-shadow: 0 3px 10px rgba(255, 255, 225, 0);
+    trasnform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 225, 0.7);
 }
 
 .showcase li {
@@ -97,4 +103,8 @@ body {
 
 .showcase li small {
     margin-left: 2px;
+}
+
+p.text span {
+    color: #6feaf6;
 }
